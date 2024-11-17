@@ -1,0 +1,69 @@
+#btnAbrirModal {
+  background-color: rgba(54, 103, 238, 0.514);
+  border: none;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+#btnFechar {
+  background-color: rgba(54, 103, 238, 0.514);
+  border: none;
+  text-align: center;
+  padding: 7px 25px;
+  color: white;
+}
+
+#btnEnviar {
+  background-color: rgba(54, 103, 238, 0.514);
+  border: none;
+  text-align: center;
+  padding: 7px 25px;
+  color: white;
+}
+
+.modal {
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+}
+
+.closed {
+  display: none;
+}
+
+.modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background-color: black;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.modal2 {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 20px 50px 20px 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
